@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Instamojo</string>
+    <string name="drawerOpen">Open</string>
+    <string name="drawerClose">Close</string>
+    <string name="imageDescription">Image</string>
+    <string name="imageError">Error</string>
+
+
+    <!-- menuStrings-->
+    <string name="menuTempInsert">Insert Fake Val</string>
+    <!-- -->
+
+    <!-- paymentStrings-->
+    <string name="paymentHeading">Payment form</string>
+    <string name="paymentName">Name</string>
+    <string name="paymentEmail">Email</string>
+    <string name="paymentPhone">Phone</string>
+    <string name="paymentCurrency">Currency</string>
+    <string name="paymentAmount">Amount</string>
+    <string name="paymentDescription">Description</string>
+    <string name="paymentDo">Pay</string>
+    <!-- -->
+
+    <!-- Urls-->
+    <style name="urlPaymentBase">https://www.instamojo.com/api/1.1/payment-requests/</style>
+    <!-- -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

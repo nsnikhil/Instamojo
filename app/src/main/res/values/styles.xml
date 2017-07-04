@@ -1,0 +1,81 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="stretchedVertically">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="stretchedHorizontally">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="matchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="twentyFour">
+        <item name="android:layout_width">@dimen/twentyFour</item>
+        <item name="android:layout_height">@dimen/twentyFour</item>
+    </style>
+
+    <style name="verticalLinearLayout" parent="matchParent">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="horizontalLinearLayout" parent="matchParent">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+    </style>
+
+    <style name="whiteColorCode">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="blackColorCode">
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+
+    <style name="accentColorCode">
+        <item name="colorControlNormal">@color/colorAccent</item>
+    </style>
+
+    <style name="errorImage">
+        <item name="android:layout_width">@dimen/drawerWidth</item>
+        <item name="android:layout_height">@dimen/drawerWidth</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="progressBar" parent="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="fab" parent="wrapContent">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_margin">@dimen/sixteen</item>
+    </style>
+
+
+</resources>

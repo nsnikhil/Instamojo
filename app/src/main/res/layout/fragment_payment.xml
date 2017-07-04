@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/verticalLinearLayout"
+    tools:context="com.nrs.nsnik.instamojo.fragments.PaymentFragment">
+
+    <ScrollView style="@style/stretchedHorizontally">
+
+        <LinearLayout
+            style="@style/stretchedHorizontally"
+            android:orientation="vertical">
+
+            <Spinner
+                android:padding="@dimen/eight"
+                android:id="@+id/paymentMode"
+                android:layout_margin="@dimen/eight"
+                style="@style/stretchedHorizontally"/>
+
+            <EditText
+                android:id="@+id/paymentName"
+                style="@style/stretchedHorizontally"
+                android:layout_margin="@dimen/eight"
+                android:hint="@string/paymentName"
+                android:inputType="text"
+                android:padding="@dimen/eight" />
+
+            <EditText
+                android:id="@+id/paymentEmail"
+                style="@style/stretchedHorizontally"
+                android:layout_margin="@dimen/eight"
+                android:hint="@string/paymentEmail"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/eight" />
+
+            <EditText
+                android:id="@+id/paymentPhone"
+                style="@style/stretchedHorizontally"
+                android:layout_margin="@dimen/eight"
+                android:hint="@string/paymentPhone"
+                android:inputType="phone"
+                android:padding="@dimen/eight" />
+
+            <EditText
+                android:id="@+id/paymentCurrency"
+                style="@style/stretchedHorizontally"
+                android:layout_margin="@dimen/eight"
+                android:enabled="false"
+                android:hint="@string/paymentCurrency"
+                android:inputType="text"
+                android:padding="@dimen/eight"
+                android:text="INR" />
+
+            <EditText
+                android:id="@+id/paymentAmount"
+                style="@style/stretchedHorizontally"
+                android:layout_margin="@dimen/eight"
+                android:hint="@string/paymentAmount"
+                android:inputType="number"
+                android:padding="@dimen/eight" />
+
+            <EditText
+                android:id="@+id/paymentDescription"
+                style="@style/stretchedHorizontally"
+                android:layout_margin="@dimen/eight"
+                android:hint="@string/paymentDescription"
+                android:inputType="text"
+                android:padding="@dimen/eight" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/paymentDo"
+        style="@style/stretchedHorizontally"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/sixteen"
+        android:text="@string/paymentDo"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:theme="@style/buttonColor" />
+
+</LinearLayout>
