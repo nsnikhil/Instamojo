@@ -9,12 +9,6 @@
             style="@style/stretchedHorizontally"
             android:orientation="vertical">
 
-            <Spinner
-                android:padding="@dimen/eight"
-                android:id="@+id/paymentMode"
-                android:layout_margin="@dimen/eight"
-                style="@style/stretchedHorizontally"/>
-
             <EditText
                 android:id="@+id/paymentName"
                 style="@style/stretchedHorizontally"
@@ -72,10 +66,10 @@
     <Button
         android:id="@+id/paymentDo"
         style="@style/stretchedHorizontally"
-        android:layout_gravity="center_horizontal"
+        android:gravity="center"
         android:layout_margin="@dimen/sixteen"
         android:text="@string/paymentDo"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
         android:theme="@style/buttonColor" />

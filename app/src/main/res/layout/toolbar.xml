@@ -4,4 +4,4 @@
     style="@style/toolbar"
     android:background="@color/colorPrimary"
     android:theme="@style/whiteColorCode"
-    app:titleTextColor="@color/black"/>
+    app:titleTextColor="@color/white"/>
